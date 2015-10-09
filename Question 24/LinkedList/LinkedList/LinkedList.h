@@ -26,7 +26,6 @@ public:
 class LinkedList
 {
 public:
-    
     LinkedList();
     LinkedList(const LinkedList&);
     ~LinkedList();
@@ -40,6 +39,11 @@ public:
     void deleteFromBack();
     bool isEmpty();
     void printContents();
+    void printContents(Node *);
+    
+    // functions needed for Question 24
+    Node reverseInPlace();
+    void reverseOutOfPlace();
     
 private:
     Node * head;

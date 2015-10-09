@@ -178,6 +178,42 @@ void LinkedList::printContents()
     }
     else
     {
-        std::cout << "Cannot print out an empty list :(";
+        std::cout << "Cannot print out an empty list :(" << "\n";
     }
+}
+
+void LinkedList::printContents(Node* head)
+{
+    Node * temp = head;
+    while (temp)
+    {
+        std::cout << temp->data << "\n";
+        temp = temp->next;
+    }
+    std::cout << "\n";
+}
+
+//TODO: Fix the pointer return type issue
+Node LinkedList::reverseInPlace()
+{
+    Node * current, previous, next;
+    if (!isEmpty())
+    {
+        current = head;
+        while (current)
+        {
+            // switching the next to the previous
+            next = *current->next;
+            *current->next = previous;
+            
+            // iterating through the list
+            previous = *current;
+            *current = next;
+        }
+    }
+    else
+    {
+        std::cout << "I promise, I'll be able to reverse an empty list in current year++ :(" << "\n";
+    }
+    return previous;
 }
