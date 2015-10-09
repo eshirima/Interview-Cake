@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4E1CE336-08FA-4DEA-8461-7B9BD7D5AF3F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9A675F9D881D7A8DD08ADF666BD5B23859B0351D</key>
+		<string>https://github.com/eshirima/Interview-Cake.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Question 24/LinkedList/LinkedList.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9A675F9D881D7A8DD08ADF666BD5B23859B0351D</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eshirima/Interview-Cake.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9A675F9D881D7A8DD08ADF666BD5B23859B0351D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9A675F9D881D7A8DD08ADF666BD5B23859B0351D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Interview-Cake</string>
+		</dict>
+	</array>
+</dict>
+</plist>
